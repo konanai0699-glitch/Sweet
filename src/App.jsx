@@ -311,7 +311,7 @@ const PRODUCTS = {
       ...img("occasion", 1),
       name: "كاسات بطعمات",
       desc: "كاسات سفرة فاخر بشكل طولي مميز مع تغطية احترافية",
-      sizes: ["صغير"],
+      sizes: ["كبير", "وسط", "صغير"],
       notes: ["يُطلب قبل 48 ساعة", "قابل للتخصيص"],
     },
     {
@@ -682,7 +682,7 @@ const btnStyle = (c1, c2) => ({
   background: `linear-gradient(135deg,${c1},${c2})`,
   color: "white",
   borderRadius: 50,
-  padding: "12px 16px",
+  padding: "10px 14px",
   fontSize: 13,
   fontWeight: 700,
   textDecoration: "none",
@@ -1932,7 +1932,8 @@ export default function App() {
         }}
       >
         <Navbar page={page} setPage={navigate} catId={catId} />
-        <main>
+        <main style={{ paddingBottom: 120 }}>
+          {" "}
           {page === "home" && (
             <HomePage setPage={navigate} setCat={(id) => setCat(id)} />
           )}
