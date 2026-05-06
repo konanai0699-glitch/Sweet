@@ -278,7 +278,7 @@ function HomePage({ setPage, setCat }) {
         <div style={{ position:"relative", zIndex:1, maxWidth:480, margin:"0 auto", width:"100%", paddingTop:20 }}>
           <div className="animate-fadeIn" style={{ marginBottom:28, display:"flex", justifyContent:"center" }}>
             <div style={{ width:110, height:110, borderRadius:"50%", background:`linear-gradient(135deg,${C.blush},${C.pink}80)`, border:`3px solid ${C.gold}`, boxShadow:`0 8px 32px ${C.shadowGold},0 0 0 6px ${C.gold}18`, display:"flex", alignItems:"center", justifyContent:"center", overflow:"hidden", animation:"float 5s ease-in-out infinite" }}>
-              <img src="/Logo.png" alt="logo" style={{ width:"100%", height:"100%", objectFit:"contain" }}/>
+              <img src="/images/logo/logo.jpg" alt="logo" style={{ width:"100%", height:"100%", objectFit:"contain" }}/>
             </div>
           </div>
 
